@@ -2,7 +2,7 @@
   "name": "hello-world",
   "version": "1.0.0",
   "engines": {
-    "node": "7.7.x"
+    "node": "8.x"
   },
   "scripts": {
     "prettify": "prettier --single-quote --trailing-comma all --write 'bin/*' 'src/**/*.js'",
@@ -17,7 +17,6 @@
     "prettier": "^0.22.0"
   },
   "dependencies": {
-    "fuzzy-rotary-phone": "github:heroku/fuzzy-rotary-phone",
     "throng": "^4.0.0"
   }
 }

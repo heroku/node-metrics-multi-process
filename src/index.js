@@ -1,8 +1,5 @@
 #!/usr/bin/env node
 
-// heroku metrics plugin
-require('fuzzy-rotary-phone');
-
 const http = require('http');
 const crypto = require('crypto');
 const throng = require('throng');
@@ -56,4 +53,3 @@ function start() {
 
   server.listen(PORT, () => console.log(`Listening on ${PORT}`));
 }
-
